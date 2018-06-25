@@ -1,0 +1,41 @@
+/*============ PRODUCT PAGE =============*/
+
+.product_metafields {
+  .product_metafield {
+	h3 {
+     text-transform:uppercase;
+      font-weight:900;
+      cursor:pointer;
+      font-size:16px;
+      border-bottom:1px solid; 
+      padding:8px 0;
+      margin:0;
+      span {
+        transition:.2s;
+        display:block;
+        float:left;
+        margin-right:10px;
+        &.rotate {
+          -webkit-transform: rotate(135deg);     /* Chrome and other webkit browsers */
+          -moz-transform: rotate(135deg);        /* FF */
+          -o-transform: rotate(135deg);          /* Opera */
+          -ms-transform: rotate(135deg);         /* IE9 */
+          transform: rotate(135deg);    
+          -webkit-transform: rotate(135deg); 
+          -moz-transform: rotate(135deg); 
+          filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+        }
+      }
+    }
+    p {
+      display:none;
+      padding: 5px 0;
+      margin-bottom:10px;
+    }
+    &:first-child {
+      h3 {
+        border-top:1px solid; 
+      }
+    }
+  }
+}
