@@ -13,6 +13,11 @@ For example before closest head tag :
 </head>
 ```
 
+Include the liquid snippet where you want accordion, for example :
 
-
-
+```
+<div class="product-single__description rte">
+  {{ product.description }}
+  {% include 'product-details-metafield' %}
+</div>
+```
