@@ -1,0 +1,15 @@
+<div class="product_metafields">
+  {% for field in product.metafields.details %}
+  <div class="product_metafield">
+    <h3><span>+ </span> {{ field | first }}</h3>
+    <p>{{ field | last | newline_to_br }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+  $('.product_metafield h3').on('click', function() {
+  	$(this).next().slideToggle(400);
+    $(this).find("span").toggleClass("rotate");
+  });
+</script>
