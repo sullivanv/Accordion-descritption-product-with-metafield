@@ -21,3 +21,9 @@ Include the liquid snippet where you want accordion, for example :
   {% include 'product-details-metafield' %}
 </div>
 ```
+
+Install Shopify FD or an app for create product metafields
+
+Add some metafields to your products and give them the namespace : details
+
+The key will be the title, and the value will be the hidden text display onclick on the key.
