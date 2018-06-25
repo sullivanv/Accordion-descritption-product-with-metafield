@@ -5,7 +5,7 @@ Snippet for iterate across a metafield namespace and create an accordion in the 
 
 Add jquery if needed
 
-For example before </head> tag :  `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> `
+For example before closest head tag :  `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> `
 
 
 
