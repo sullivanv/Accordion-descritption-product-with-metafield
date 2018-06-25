@@ -3,8 +3,9 @@ Snippet for iterate across a metafield namespace and create an accordion in the 
 
 ### Usage
 
-Add jquery if needed 
-For example before </head> :  `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> `
+Add jquery if needed
+
+For example before </head> tag :  `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> `
 
 
 
